@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px;
+  padding: 91px 50px;
 }
 
 .header__menu {
@@ -132,7 +132,7 @@
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 18px;
-  padding-right: 2px;
+  padding-right: 5px;
 }
 
 .bet-button {
@@ -217,9 +217,8 @@
   text-underline-offset: 0;
   text-decoration-thickness: 0%;
   color: #fff;
-  padding: 45px 40px 0px;
+  padding: 50px 41px 0px;
   z-index: 1;
-  text-underline-offset: 3px;
 }
 
 .card__text {
@@ -228,7 +227,7 @@
   font-size: 20px;
   line-height: 120%;
   color: #fff;
-  padding: 0px 40px 47px;
+  padding: 0px 41px 47px;
   z-index: 1;
 }
 
@@ -246,9 +245,9 @@
 .about {
   display: grid;
   grid-template-columns: 328px 1fr;
-  column-gap: 30px;
-  padding: 0 26px;
-  margin-top: 116px;
+  column-gap: 33px;
+  padding: 0 25px;
+  margin-top: 85px;
 }
 
 .about__column {
