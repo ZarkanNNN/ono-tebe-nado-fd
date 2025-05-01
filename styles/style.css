@@ -25,7 +25,7 @@
 }
 
 .header__link {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -49,11 +49,10 @@
 }
 
 .address {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
-  letter-spacing: 0%;
   font-style: normal;
   list-style: none;
   text-underline-offset: 4px;
@@ -69,7 +68,6 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  z-index: -2;
   min-height: 757px;
 }
 
@@ -80,7 +78,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
 }
 
 .cover__title {
@@ -88,13 +85,14 @@
   flex-direction: column;
   gap: 20px;
   padding: 165px 50px 106px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
-  letter-spacing: 30%;
   text-align: center;
   text-transform: uppercase;
+  position: relative;
+  z-index: 1;
 }
 
 .aligned-text {
@@ -123,14 +121,15 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .cover__description-text {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
-  letter-spacing: 0%;
   text-transform: uppercase;
   word-spacing: 18px;
   padding-right: 2px;
@@ -138,17 +137,16 @@
 
 .bet-button {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
   border: 1px solid #fff;
-  width: 255px;
-  height: 50px;
+  min-width: 255px;
+  min-height: 50px;
 }
 
 .lots {
@@ -159,18 +157,21 @@
 .lots__heading {
   padding-left: 43px;
   padding-bottom: 30px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
 .lots__card-list {
   display: flex;
-  flex-direction: row;
-  gap: 28px;
+  /*flex-direction: row;
+  gap: 28px;*/
+  justify-content: space-between;
+  background-size: cover;
+  flex-wrap: wrap;
+  gap: 25px;
   list-style: none;
 }
 
@@ -181,6 +182,7 @@
 
 .card-link {
   min-height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -188,7 +190,7 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  z-index: -2;
+  z-index: 1;
   background-size: cover;
   background-position: center;
   min-height: 100%;
@@ -207,11 +209,10 @@
 }
 
 .card__title {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
-  letter-spacing: 0%;
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-style: solid;
@@ -219,24 +220,24 @@
   text-decoration-thickness: 0%;
   color: #fff;
   padding: 45px 40px 0px;
+  z-index: 1;
 }
 
 .card__text {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0%;
   color: #fff;
   padding: 0px 40px 47px;
+  z-index: 1;
 }
 
 .lots__look-more-link {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: 0%;
   position: relative;
   top: 33px;
   right: 102px;
@@ -279,7 +280,7 @@
 .about__title {
   margin-top: 20px;
   margin-bottom: 105px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
@@ -287,11 +288,10 @@
 }
 
 .about__text {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0%;
 }
 
 .about__text--indent {
@@ -330,11 +330,10 @@
 }
 
 .footer__menu-link {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
 }
 
