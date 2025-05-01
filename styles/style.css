@@ -227,7 +227,7 @@
   font-size: 20px;
   line-height: 120%;
   color: #fff;
-  padding: 0px 41px 47px;
+  padding: 0px 40px 45px;
   z-index: 1;
 }
 
@@ -237,17 +237,17 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
-  padding-top: 33px;
-  padding-left: 42px;
+  padding-top: 35px;
+  padding-left: 40px;
   text-underline-offset: 4px;
 }
 
 .about {
   display: grid;
   grid-template-columns: 328px 1fr;
-  column-gap: 33px;
+  column-gap: 30px;
   padding: 0 25px;
-  margin-top: 85px;
+  margin-top: 86px;
 }
 
 .about__column {
@@ -261,7 +261,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 48px;
+  margin-left: 45px;
   background: #000;
   width: 240px;
   height: 240px;
@@ -275,7 +275,7 @@
 
 .about__title {
   margin-top: 20px;
-  margin-bottom: 105px;
+  margin-bottom: 104px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -306,13 +306,12 @@
 .footer__adderss {
   max-width: 265px;
   padding-bottom: 10px;
-  padding-left: 4px;
 }
 
 .footer__menu {
   text-underline-offset: 4px;
   padding-bottom: 44px;
-  padding-right: 135px;
+  padding-right: 137px;
 }
 
 .footer__menu-list {
