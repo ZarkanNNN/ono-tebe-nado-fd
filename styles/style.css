@@ -247,7 +247,6 @@
   grid-template-columns: 328px 1fr;
   column-gap: 30px;
   padding: 0 25px;
-  /*margin-top: 86px;*/
 }
 
 .about__column {
@@ -256,8 +255,6 @@
 }
 
 .about__logo {
-  /*position: relative;
-  top: -85px;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,8 +296,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr min-content;
   align-items: center;
-  /*margin-top: 177px;*/
-  padding: 180px 50px 72px;
+  padding: 181px 50px 72px;
   font-size: 18px;
 }
 
@@ -312,7 +308,7 @@
 .footer__menu {
   text-underline-offset: 4px;
   padding-bottom: 44px;
-  padding-right: 137px;
+  padding-right: 140px;
 }
 
 .footer__menu-list {
